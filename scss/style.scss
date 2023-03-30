@@ -11,7 +11,7 @@
       z-index: 3;
       .row1 {
          width: 100%;
-         height: 36px;
+         height: 33px;
          position: relative;
          z-index: 2;
          .container {
@@ -102,7 +102,6 @@
       .row3 {
          width: 100%;
          height: 56px;
-         //background: #c9c;
          .container {
             width: 100%;
             height: 100%;
@@ -161,6 +160,7 @@
                border-radius: 10px;
                background: #E7E4F1;
                border: 0;
+               margin: 0 0 20px 0;
                a {
                   font-size: 18px;
                }
@@ -181,15 +181,19 @@
          margin: 0 auto;
          display: flex;
          .left {
-            padding: 30px 0;
+            padding: 18px 0;
             img {
                width: 80px;
             }
          }
          .right {
             display: flex;
-            justify-content:end;
+            justify-content:flex-end;
+            align-items: center;
+            //height: 170px;
+            margin: 0% 17.36%;
             h6 {
+               line-height: 100%;
                font-size: 16px;
                color: #111;
             }
